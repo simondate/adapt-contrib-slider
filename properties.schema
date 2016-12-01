@@ -351,7 +351,7 @@
         "correct": {
           "type":"string",
           "required":true,
-          "default": "",
+          "default": "This is the correct answer!",
           "title": "Correct",
           "inputType": "TextArea",
           "validators": ["required"],
@@ -366,7 +366,7 @@
             "final": {
               "type":"string",
               "required": true,
-              "default": "",
+              "default": "This is the incorrect answer!",
               "title": "Incorrect Final",
               "inputType": "TextArea",
               "validators": ["required"],
@@ -376,7 +376,7 @@
             "notFinal": {
               "type":"string",
               "required": false,
-              "default": "",
+              "default": "This is incorrect. Try again.",
               "title": "Incorrect Not Final",
               "inputType": "TextArea",
               "validators": [],
@@ -392,7 +392,7 @@
             "final": {
               "type":"string",
               "required": false,
-              "default": "",
+              "default": "You were partly correct.",
               "title": "Partly Correct Final",
               "inputType": "TextArea",
               "validators": [],
@@ -402,7 +402,7 @@
             "notFinal": {
               "type":"string",
               "required": false,
-              "default": "",
+              "default": "That's partly correct try again.",
               "title": "Partly Correct Not Final",
               "inputType": "TextArea",
               "validators": [],
